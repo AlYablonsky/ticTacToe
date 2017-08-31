@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Project #9 Tic Tac Toe</title>    
+    <link rel="stylesheet" href="ticTacToe.css">   
+    </head>
+    <body>
+		<div id="buttonStyle1">
+		<div id="numberOfPlayersForm" class="ticTacToeForm">
+			<button id="1" type="button" class="btn" onclick="chooseNumberOfPlayers(this.id)" >1 Player</button>
+			<button id="2" type="button" class="btn" onclick="chooseNumberOfPlayers(this.id)" >2 Players</button>
+		</div>
+		</div>
+		<div class="buttonStyle">
+		<div id="turnForm" class="ticTacToeForm">
+			<button id="X" type="button" class="btn" onclick="choosePlayerType(this.id)" >Choose X</button>
+			<button id="O" type="button" class="btn" onclick="choosePlayerType(this.id)" >Choose O</button>
+			<button id="G" type="button" class="btn" onclick="choosePlayerType(this.id)" >Go Back</button>
+		</div>
+		</div>
+		<div id="buttonStyle2">
+		<div id="reset" class="ticTacToeForm">
+			<button id="R" type="button" class="btn" onclick="resetFxn()" >Reset</button>
+		</div>
+		</div>
+			<p id="message">Let's Play Tic-Tac-Toe!</p>
+		<div class="scoreTable">
+			<table id="message1">
+			</table>
+		</div>
+		<div class="scoreTable">
+			<canvas id ="ticTacToe"></canvas>
+		</div>
+    	<script src="ticTacToe.js"></script> 
+    </body>
+</html>

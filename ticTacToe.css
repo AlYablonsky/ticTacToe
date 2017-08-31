@@ -1,0 +1,90 @@
+
+
+body {
+	
+	background-color: #000000;
+	color: white;
+}
+
+
+#ticTacToe {
+	
+	margin-top: 2em; 
+}
+
+
+#message{
+	text-align: center;
+	display: block; 
+	font-size: 3em;
+	margin-bottom: 1em;
+}
+
+
+#message1{
+	font-size: 2em;
+	text-align: center;
+	color: black;
+	background-color: white;
+	margin-bottom: 1em;
+}
+
+th, td {
+	
+	width: 4.85em;
+	border: .1em solid black;
+	padding-top: .1em;
+	padding-bottom: .1em;
+}
+
+table {
+	
+	border-collapse: collapse;
+}
+
+
+.scoreTable {	
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+
+.ticTacToeForm{
+	width: 24%; 
+	padding-top: .6em;
+	padding-bottom: .6em;
+	border-radius: 3em;
+	background-color: darkkhaki;
+	text-align: center;
+	margin: 3em auto 0 auto;
+	display: block;  
+}
+
+.btn {
+	
+	font-size: 2em;
+	margin: .5em; 
+	display: inline; 
+	border-radius: 2em;
+	padding: .2em; 
+	color: black;
+	background-color: white;
+	border: none;
+}
+
+.btn:hover {
+	
+	background-color:  royalblue;
+	color: antiquewhite;
+}
+
+#buttonStyle1{
+padding-top: 20em;	
+}
+
+#buttonStyle2{
+margin-top: -22em;	
+}
+
+
